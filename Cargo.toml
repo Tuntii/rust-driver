@@ -19,9 +19,16 @@ winapi = { version = "0.3", features = [
     "tlhelp32",
     "psapi",
     "impl-default",
-    "winerror"
+    "winerror",
+    "winreg",
+    "winsvc"
 ]}
 lazy_static = "1.4"
 sysinfo = "0.29"
 wmi = "0.13"
-rand = "0.8" 
+rand = "0.8"
+winreg = "0.50"
+aes = "0.8"
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+tokio = { version = "1.0", features = ["full"] }
+base64 = "0.21" 
