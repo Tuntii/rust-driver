@@ -4,5 +4,24 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-winapi = { version = "0.3", features = ["winuser", "processthreadsapi", "memoryapi", "handleapi", "errhandlingapi", "synchapi", "debugapi"] }
-lazy_static = "1.4" 
+winapi = { version = "0.3", features = [
+    "winuser", 
+    "processthreadsapi", 
+    "memoryapi", 
+    "handleapi", 
+    "errhandlingapi", 
+    "synchapi", 
+    "debugapi",
+    "winbase",
+    "processenv",
+    "wow64apiset",
+    "securitybaseapi",
+    "tlhelp32",
+    "psapi",
+    "impl-default",
+    "winerror"
+]}
+lazy_static = "1.4"
+sysinfo = "0.29"
+wmi = "0.13"
+rand = "0.8" 
