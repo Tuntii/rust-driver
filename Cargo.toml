@@ -3,6 +3,14 @@ name = "rust-driver"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "driver"
+path = "src/main.rs"
+
+[[bin]]
+name = "c2_server"
+path = "src/c2_server.rs"
+
 [dependencies]
 winapi = { version = "0.3", features = [
     "winuser", 
@@ -31,4 +39,6 @@ winreg = "0.50"
 aes = "0.8"
 reqwest = { version = "0.11", features = ["blocking", "json"] }
 tokio = { version = "1.0", features = ["full"] }
-base64 = "0.21" 
+base64 = "0.21"
+warp = "0.3"
+bytes = "1.0" 
