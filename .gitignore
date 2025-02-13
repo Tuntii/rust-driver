@@ -1,0 +1,64 @@
+# Rust ile ilgili
+/target/
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# Debug sembolleri ve build artifactları
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+*.exp
+*.ilk
+*.map
+*.sym
+
+# IDE ve editor dosyaları
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Windows özel dosyaları
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Log ve geçici dosyalar
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Crash raporları
+*.dmp
+*.dump
+*.crash
+*.stackdump
+
+# Rust analiz dosyaları
+*.rlib
+*.rmeta
+*.d
+
+# Bellek dökümü dosyaları
+*.core
+core
+vgcore.*
+
+# Test coverage dosyaları
+*.gcno
+*.gcda
+*.gcov
+
+# Profiling dosyaları
+callgrind.*
+perf.*
+*.prof 

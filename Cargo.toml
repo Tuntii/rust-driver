@@ -1,0 +1,8 @@
+[package]
+name = "rust-driver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winapi = { version = "0.3", features = ["winuser", "processthreadsapi", "memoryapi", "handleapi", "errhandlingapi", "synchapi", "debugapi"] }
+lazy_static = "1.4" 
